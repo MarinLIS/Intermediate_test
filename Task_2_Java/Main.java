@@ -29,7 +29,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
         System.out.println("Hello!");
-        Raffle r = new Raffle();
+        Raffle_pq r = new Raffle_pq();
         Scanner sc = new Scanner(System.in);
         while (true) {
             System.out.print("""
